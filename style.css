@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::root {
+    --Magenta: #502050;
+    --Pink: #ee68a4;
+    --Magenta-: #937b92;
+    --Magenta--: #f7f2f7;
+    --White: #ffffff;
+}
+@media screen and (max-width: 768px) {
+    body {
+    font-family: "League Spartan" , sans-serif;
+    font-size: 15px;
+    font-weight: 400, 500, 700;
+    background-color: #ffffff;  
+    margin: 6rem  2rem;
+}
+
+.heading {
+    margin: 2rem;
+}
+
+.heading h1 {
+    color: #502050; 
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.paragraph p {
+    color: #937b92;
+    text-align: center;
+    line-height: 25px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.first-star {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f2f7;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.first-star h3 {
+    color: #502050; 
+}
+
+.second-star {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f2f7;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.second-star h3 {
+    color: #502050;
+}
+
+.third-star {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f2f7;
+    margin-bottom: 20px;
+    border-radius: 1rem;
+}
+
+.third-star h3 {
+    color: #502050;
+}
+
+.first-purple-section {
+    background-color: #502050;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.colton {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.colten-image {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.colten-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.colten-text h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.colten-text p {
+    color: #ee68a4;
+    margin-top: 6px; 
+    font-size: 1.1rem;
+}
+
+.colon-paragraph {
+    margin: 20px;
+}
+
+.colon-paragraph p {
+    color: white;
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+
+.second-purple-section {
+    background-color: #502050;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.irene {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.irene-image {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.irene-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.irene-text h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.irene-text p {
+    color: #ee68a4;
+    margin-top: 6px; 
+    font-size: 1.1rem;
+}
+
+.irene-paragraph {
+    margin: 20px;
+}
+
+.irene-paragraph p {
+    color: white;
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+
+
+.third-purple-section {
+    background-color: #502050;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.anne {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.anne-image {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.anne-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.anne-text h4 {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.anne-text p {
+    color: #ee68a4;
+    margin-top: 6px; 
+    font-size: 1.1rem;
+}
+
+.anne-paragraph {
+    margin: 20px;
+}
+
+.anne-paragraph p {
+    color: white;
+    line-height: 1.3rem;
+    font-size: 1rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        font-family: "League Spartan" , sans-serif;
+        font-size: 15px;
+        font-weight: 400, 500, 700;
+        background-color: #ffffff;  
+        margin: 6rem  2rem;
+        padding: 5rem;
+        max-width: 1440px;
+    }
+
+
+    .first-article .flex {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .first-article .flex-text-box {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 1rem;
+    }
+
+    .flex-text-box .heading {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #502050;
+    }
+
+    .flex-text-box .paragraph {
+        font-size: 1rem;
+        line-height: 2rem;
+        text-align: start;
+        padding-right: 1rem;
+        color: #937b92;
+    }
+
+    .star-flex-box {
+        width: 50%;
+        position: relative;
+    }
+
+    .star-flex-box .first-star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem;
+        background-color: #f7f2f7;
+        margin-bottom: 20px;
+        border-radius: 1rem;
+    }
+
+    .star-flex-box .second-star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem;
+        background-color: #f7f2f7;
+        margin-bottom: 20px;
+        border-radius: 1rem;
+        position: relative;
+        left: 50px;
+    }
+
+    .star-flex-box .third-star {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem;
+        background-color: #f7f2f7;
+        border-radius: 1rem;
+        position: relative;
+        left: 90px;
+
+    }
+
+    .second-article {
+        display: flex;
+        margin-top: 70px;
+        gap: 2rem;
+        position: relative;
+    }
+
+    .second-article .first-purple-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #502050;
+        margin-right: 10px;
+        border-radius: 0.5rem;
+        padding: 1rem;        
+    }
+    .colton {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .colten-image {
+        width: 10%;
+        margin-right: 10px;
+        margin-left: 20px;
+   }
+
+    .colten-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .colten-text h4 {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .colten-text p {
+        color: #ee68a4;
+        margin-top: 6px; 
+        font-size: 1.1rem;
+    }
+
+    .colon-paragraph {
+        margin: 20px;
+    }
+
+    .colon-paragraph p {
+        color: white;
+        line-height: 1.3rem;
+        font-size: 1rem;
+    }
+    .second-article .second-purple-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #502050;
+        margin-right: 10px;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        position: relative;
+        top: 25px;
+    }
+    .irene {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .irene-image {
+        width: 10%;
+        margin-right: 10px;
+        margin-left: 20px;
+   }
+
+    .irene-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .irene-text h4 {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .irene-text p {
+        color: #ee68a4;
+        margin-top: 6px; 
+        font-size: 1.1rem;
+    }
+
+    .irene-paragraph {
+        margin: 20px;
+    }
+
+    .irene-paragraph p {
+        color: white;
+        line-height: 1.3rem;
+        font-size: 1rem;
+    }
+
+    .second-article .third-purple-section {
+        display: flex;
+        flex-direction: column;
+        background-color: #502050;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        position: relative;
+        top: 50px;
+    }
+    .anne {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .anne-image {
+        width: 10%;
+        margin-right: 10px;
+        margin-left: 20px;
+   }
+
+    .anne-image img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .anne-text h4 {
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+
+    .anne-text p {
+        color: #ee68a4;
+        margin-top: 6px; 
+        font-size: 1.1rem;
+    }
+
+    .anne-paragraph {
+        margin: 20px;
+    }
+
+    .anne-paragraph p {
+        color: white;
+        line-height: 1.3rem;
+        font-size: 1rem;
+    }
+
+   .attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 200px;
+   }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
